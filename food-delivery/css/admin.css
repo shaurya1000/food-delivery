@@ -1,0 +1,153 @@
+/*
+
+Author:Group6
+Theme:Food Ordering Website
+Version: 1.0
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.clearfix{
+
+    float: none;
+    clear: both;
+
+}
+.tbl-full{
+    width: 110%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+ table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+
+}
+
+
+.btn-secondary{
+    background-color: #00A300;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #007500;
+
+}
+
+
+.btn-danger{
+    background-color: #bf0000;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #800000;
+
+}
+
+.success{
+    color: #00A300;
+}
+.error{
+    color: #bf0000;
+}
+
+
+
+/* CSS for Menu*/
+.menu{
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: #652A0E;
+}
+.menu ul {
+ list-style-type: none;
+
+}
+.menu ul li{
+display: inline;
+padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #E5D3B3;
+
+}
+.menu ul li a:hover{
+    color: #d2b48c;
+}
+
+/*Main Content CSS*/
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+
+
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/*CSS for Footer*/
+
+.footer {
+    background-color: #652A0E;
+    color: #E5D3B3;
+
+}
+
+
+/*CSS for Login*/
+
+.login{
+    border: 1px solid grey;
+    width: 25%;
+    margin: 15% auto;
+    padding: 2%;
+    background-color: #993300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
